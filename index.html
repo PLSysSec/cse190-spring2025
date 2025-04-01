@@ -1,0 +1,133 @@
+<meta charset="utf-8"><!-- -*- markdown -*- -->
+**CSE 190: Blockchain Security**
+          [*Deian Stefan*](https://cseweb.ucsd.edu/~dstefan/)
+
+About
+==============================================================
+
+This course focuses on the security of blockchain technologies. Students will
+be introduced to many parts of the blockchain infrastructure — from the design
+and implementation of consensus protocols, to the programming layers above
+them, and the DeFi applications handling billions of dollars — and explore the
+different ways these systems can—and have—failed under adversarial settings. We
+will study attacks against real systems, revisit the security and assumptions
+of widely deployed protocols and applications, and analyze the impact of
+attacks, scams, and thefts.
+
+Lectures:
+: Monday and Wednesday, 5:00--6:20pm, RWAC 0115
+
+Staff:
+: **Instructor**: Deian Stefan (with guest appearances from Enze Liu)
+
+: **Teaching Assistant**: Naomi Smith
+
+Office hours:
+: **Deian**: Monday 6:30pm, CSE 3126
+: **Naomi**: TBA
+
+Class questions and discussion:
+: We'll use the CSE slack channel `#cse190-sp25-blockchain`
+
+Calendar and Readings
+==============================================================
+
+
+Mon Mar 31 2025: Introduction
+  - [*Slides*](./slides/intro.pdf)
+
+Wed Apr 2 2025: Bitcoin (part 1)
+  - *Reading*:
+    - [Bitcoin: A Peer-to-Peer Electronic Cash System](https://bitcoin.org/bitcoin.pdf), by Satoshi Nakamoto
+    - Block Chain, Transactions, P2P Network sections from [Bitcoin Developer Guide](https://developer.bitcoin.org/reference/)
+
+Mon Apr 7 2025: Bitcoin (part 2)
+  - *Reading*:
+    - [Majority is not Enough: Bitcoin Mining is Vulnerable](https://arxiv.org/abs/1311.0243) by Ittay Eyal and Emin Gun Sirer
+
+Wed Apr 9 2025: Bitcoin (part 3)
+  - [*Slides*](./slides/bitcoin-hacks.pdf)
+  - *Reading*:
+    - [On the Malleability of Bitcoin Transactions](https://fc15.ifca.ai/preproceedings/bitcoin/paper_9.pdf) by Marcin Andrychowicz et al.
+    - [Mt. Gox: What We Still Don't Know 10 Years After the Collapse](https://www.coindesk.com/consensus-magazine/2024/02/28/mt-gox-what-we-still-dont-know-10-years-after-the-collapse/)
+
+Mon Apr 14 2025: Bitcoin (part 4)
+  - [*Slides*](./slides/tracing.pdf)
+  - *Reading*:
+    - [A Fistful of Bitcoins: Characterizing Payments Among Men with No Names](https://cseweb.ucsd.edu/~smeiklejohn/files/imc13.pdf) by Sarah Meiklejohn et al.
+  - *Optional reading*:
+    - [How to Peel a Million: Validating and Expanding Bitcoin Clusters](https://smeiklej.com/files/usenix22.pdf) by George Kappos et al.
+
+Mon Apr 16 2025: No class
+
+Mon Apr 21 2025: Ethereum (part 1)
+  - [*Slides*](./slides/ethereum.pdf)
+  - *Reading*:
+    - [Ethereum docs](https://ethereum.org/en/developers/docs/)
+  - *Optional*:
+    - [Ethereum: A secure decentralised generalised transaction ledger -- EIP-150 revision](https://gavwood.com/paper.pdf) by Gavin Wood
+
+Wed Apr 23 2025: Ethereum (part 2)
+  - [*Slides*](./slides/ethereum.pdf)
+  - *Reading*:
+    - [Solidity](https://docs.soliditylang.org/en/latest/)
+    - [ERC-4337](https://eips.ethereum.org/EIPS/eip-4337)
+
+Mon Apr 28 2025: DeFi: Stablecoins, lending protocols, swaps and DEXes (part 1)
+  - *Reading*:
+    - [Uniswap](https://uniswapv3book.com/)
+
+Wed Apr 30 2025: DeFi: Stablecoins, lending protocols, swaps and DEXes (part 2)
+  - *Reading*:
+    - [Attacking the DeFi Ecosystem with Flash Loans for Fun and Profit](https://arxiv.org/abs/2003.03810) by K. Qin et al.
+    - [SoK: Decentralized Finance (DeFi) Attacks](https://arxiv.org/pdf/2208.13035.pdf) by Liyi Zhou et al.
+
+Mon May 5 2025: Review
+
+Wed May 7 2025: Midterm Exam
+
+Mon May 12 2025: Mixers
+  - [*Slides*](./slides/anti-tracing.pdf)
+  - *Reading*:
+    - [Mixcoin: Anonymity for Bitcoin with accountable mixes](https://jbonneau.com/doc/BNMCKF14-FC-mixcoin_proceedings.pdf) by Joseph Bonneau et al.
+    - [Bitcoin Fog](https://www.wired.com/story/bitcoin-fog-dark-web-cryptocurrency-arrest/)
+  - *Optional*:
+    - [How Tornado Cash Works](https://www.rareskills.io/post/how-does-tornado-cash-work)
+
+Wed May 14 2025: MEV and frontrunning
+  - [*Slides*](./slides/mev.pdf)
+  - *Reading*:
+    - [Flash Boys 2.0: Frontrunning, Transaction Reordering, and Consensus Instability in Decentralized Exchanges](https://arxiv.org/pdf/1904.05234.pdf) by Philip Daian et al.
+    - [Quantifying Blockchain Extractable Value: How dark is the forest?](https://arxiv.org/pdf/2101.05511.pdf) by Kaihua Qin et al.
+  - *Optional*:
+    - [Time to Brige: Measuring Block Construction Markets](https://arxiv.org/pdf/2305.16468.pdf) by Anton Wahrstätter et al.
+
+Mon May 19 2025: DeFi Hacks
+  - *Reading*:
+    - [Attacking the DeFi Ecosystem with Flash Loans for Fun and Profit](https://arxiv.org/abs/2003.03810) by K. Qin et al.
+    - [SoK: Decentralized Finance (DeFi) Attacks](https://arxiv.org/pdf/2208.13035.pdf) by Liyi Zhou et al.
+
+Wed May 21 2025: Cross-chain bridges (part 1)
+  - [*Slides*](./slides/briges.pdf)
+  - *Reading*:
+    - [zkBridge: Trustless Cross-chain Bridges Made Practical](https://dl.acm.org/doi/abs/10.1145/3548606.3560652) by Tiancheng Xie et al.
+
+Mon May 26 2025: No class
+
+Wed May 28 2025: Cross-chain bridges (part 2)
+  - *Reading*:
+    - [SoK: Security of Cross-chain Bridges: Attack Surfaces, Defenses, and Open Problems](https://arxiv.org/abs/2312.12573) by Zhang et al.
+
+Mon June 2 2025: Fun topics (Avalanche)
+  - *Reading*:
+    - [Scalable and Probabilistic Leaderless BFT Consensus through Metastability](https://arxiv.org/pdf/1906.08936)
+    - [Vryx: Fortifying Decoupled State Machine Replication](https://hackmd.io/@patrickogrady/rys8mdl5p#Vryx-Fortifying-Decoupled-State-Machine-Replication) by P. O'Grady
+    - [Frosty: Bringing strong liveness guarantees to the Snow family of consensus protocols.](https://arxiv.org/pdf/2404.14250) by A. Buchwald et al.
+
+Wed June 4 2025: Review
+
+<style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace}</style><script src="markdeep.min.js"></script>
+<script>
+  window.alreadyProcessedMarkdeep || (document.body.style.visibility="visible");
+  markdeepOptions= {tocStyle: 'short', sortScheduleLists: false };
+</script>
